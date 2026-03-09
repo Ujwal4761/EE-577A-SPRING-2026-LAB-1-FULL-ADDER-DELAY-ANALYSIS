@@ -1,3 +1,5 @@
+EE 577A SPRING 2026 LAB 1: FULL ADDER DELAY ANALYSIS
+
 PART I: (55 Points) STANDARD CELL BASED FULL ADDER DESIGN
 1. (5 Points) Restore the given FA_p1 schematic by designing a full adder (FA) using standard cells from GSCLIB045.
  <img width="1008" height="538" alt="image" src="https://github.com/user-attachments/assets/0470672a-db15-4580-ab38-b87a82b45744" />
