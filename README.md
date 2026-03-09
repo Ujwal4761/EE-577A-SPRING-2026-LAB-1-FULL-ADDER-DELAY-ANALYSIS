@@ -21,9 +21,13 @@ it gives the output exactly as the truth table
 4. Question: What is the minimum steps that you need to cover all 32 vectors? Do your simulation with minimum steps. 
 
 step1: we need to set trans analysis to 33ns
+
 step2: VDD and VSS values need to be fed from stimuli
+
 step3:select the output pins from design
+
 step4:upload the desired vector file
+
 step 5:run the simulation and view the result in waveform
 
 Area calculation and pin placement estimation
