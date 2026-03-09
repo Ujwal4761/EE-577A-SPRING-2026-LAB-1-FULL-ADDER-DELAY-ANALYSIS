@@ -1,10 +1,10 @@
-EE 577A SPRING 2026 LAB 1: FULL ADDER DELAY ANALYSIS
+   FULL ADDER DELAY ANALYSIS
 
-PART I: (55 Points) STANDARD CELL BASED FULL ADDER DESIGN
-1. (5 Points) Restore the given FA_p1 schematic by designing a full adder (FA) using standard cells from GSCLIB045.
+ STANDARD CELL BASED FULL ADDER DESIGN
+1.  Restore the given FA_p1 schematic by designing a full adder (FA) using standard cells from GSCLIB045.
  <img width="1008" height="538" alt="image" src="https://github.com/user-attachments/assets/0470672a-db15-4580-ab38-b87a82b45744" />
 
-2. (5 Points) Create a maestro cell view for the testbench provided. (In this part only cover the (A1, B1, Ci1) signal set. Verify the logical correctness of your FA through functional simulation
+2.  Create a maestro cell view for the testbench provided. (In this part only cover the (A1, B1, Ci1) signal set. Verify the logical correctness of your FA through functional simulation
 Testbench
 <img width="1003" height="487" alt="image" src="https://github.com/user-attachments/assets/ce6bfa16-5ddf-4151-9c4b-c6013dee703f" />
 
@@ -18,7 +18,7 @@ it gives the output exactly as the truth table
 <img width="1030" height="534" alt="image" src="https://github.com/user-attachments/assets/55b63cf3-9892-4c29-9eef-c87ec7ef01b5" />
 
 
-4. Question: What is the minimum steps that you need to cover all 32 vectors? Do your simulation with minimum steps. (Bonus: +5 points)
+4. Question: What is the minimum steps that you need to cover all 32 vectors? Do your simulation with minimum steps. 
 
 step1: we need to set trans analysis to 33ns
 step2: VDD and VSS values need to be fed from stimuli
@@ -39,8 +39,8 @@ LVS is also clean
  <img width="1013" height="572" alt="image" src="https://github.com/user-attachments/assets/77fc84c5-298f-4715-b9d4-a865af214444" />
 
 
-PART II: (55 Points) TRANSISTOR-LEVEL MIRRORED STRUCTURE
-1. (5 Points) Restore the given FA_p2 cell by designing a full adder (FA) using mirrored design from Figure 1. Please follow the sizing values in the figure by referencing the standard library inverter (with [1, 1.5] sizing).
+PART II:  TRANSISTOR-LEVEL MIRRORED STRUCTURE
+1.  Restore the given FA_p2 cell by designing a full adder (FA) using mirrored design. Sizing values in the figure by referencing the standard library inverter (with [1, 1.5] sizing).
 <img width="940" height="480" alt="image" src="https://github.com/user-attachments/assets/24c47407-e9d2-424e-8960-6bfc5e07e491" />
  
 Note: - PMOS is 390nm,NMOS is 260nm, but the one at the extreme left are 
@@ -56,7 +56,7 @@ also the testbench has been created for both the parts
 Layout for part 2 has been created
 due to the huge size screenshot cannot be taken
 
-PART III: (30 Points) MULTI-BIT ADDER CONSTRUCTION
+PART III: MULTI-BIT ADDER CONSTRUCTION
 
 Two RCA have been made
 One is made by the Fa_p1
